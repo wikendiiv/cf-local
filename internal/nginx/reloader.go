@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DKen-DevCat/cf-local/internal/config"
+	"github.com/wikendiiv/cf-local/internal/config"
 )
 
 // DefaultReloadDebounce is the wait window applied between the last

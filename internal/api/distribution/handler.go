@@ -12,7 +12,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
 
-	awsxml "github.com/DKen-DevCat/cf-local/internal/api/xml"
+	awsxml "github.com/wikendiiv/cf-local/internal/api/xml"
 )
 
 // maxBodyBytes caps inbound XML request bodies. AWS's actual API caps are

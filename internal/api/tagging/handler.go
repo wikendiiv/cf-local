@@ -16,7 +16,7 @@ import (
 	"encoding/xml"
 	"net/http"
 
-	awsxml "github.com/DKen-DevCat/cf-local/internal/api/xml"
+	awsxml "github.com/wikendiiv/cf-local/internal/api/xml"
 )
 
 // Handler is the stub tagging handler. Stateless — cf-local does not

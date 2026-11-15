@@ -14,7 +14,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
 
-	"github.com/DKen-DevCat/cf-local/internal/config"
+	"github.com/wikendiiv/cf-local/internal/config"
 )
 
 // TestReloader_TriggerCoalesce verifies that bursts of Trigger() within

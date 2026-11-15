@@ -46,7 +46,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/DKen-DevCat/cf-local/internal/edgefunc"
+	"github.com/wikendiiv/cf-local/internal/edgefunc"
 )
 
 const (

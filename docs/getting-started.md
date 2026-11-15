@@ -11,7 +11,7 @@
 ## 5分で動かす
 
 ```bash
-git clone https://github.com/DKen-DevCat/cf-local.git
+git clone https://github.com/wikendiiv/cf-local.git
 cd cf-local
 
 docker compose up -d

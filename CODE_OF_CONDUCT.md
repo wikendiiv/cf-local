@@ -36,7 +36,7 @@
 
 ## 執行
 
-虐待的、嫌がらせ、または許容できない行為は、本リポジトリの [GitHub Issues](https://github.com/DKen-DevCat/cf-local/issues) で報告してください (件名に `[CoC]` プレフィックスを付けてください)。すべての苦情は迅速かつ公正に審査・調査されます。
+虐待的、嫌がらせ、または許容できない行為は、本リポジトリの [GitHub Issues](https://github.com/wikendiiv/cf-local/issues) で報告してください (件名に `[CoC]` プレフィックスを付けてください)。すべての苦情は迅速かつ公正に審査・調査されます。
 
 セキュリティ脆弱性の報告については、本行動規範ではなく [`SECURITY.md`](SECURITY.md) の手順に従ってください。
 

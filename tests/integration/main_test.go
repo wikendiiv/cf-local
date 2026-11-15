@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/DKen-DevCat/cf-local/tests/integration/testserver"
+	"github.com/wikendiiv/cf-local/tests/integration/testserver"
 )
 
 func TestMain(m *testing.M) {

@@ -39,16 +39,16 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
 	"go.etcd.io/bbolt"
 
-	"github.com/DKen-DevCat/cf-local/internal/api"
-	"github.com/DKen-DevCat/cf-local/internal/api/cachepolicy"
-	"github.com/DKen-DevCat/cf-local/internal/api/distribution"
-	apiedgefunc "github.com/DKen-DevCat/cf-local/internal/api/edgefunc"
-	apiinv "github.com/DKen-DevCat/cf-local/internal/api/invalidation"
-	"github.com/DKen-DevCat/cf-local/internal/api/originrequestpolicy"
-	"github.com/DKen-DevCat/cf-local/internal/api/responseheaderspolicy"
-	"github.com/DKen-DevCat/cf-local/internal/config"
-	"github.com/DKen-DevCat/cf-local/internal/invalidation"
-	cfnginx "github.com/DKen-DevCat/cf-local/internal/nginx"
+	"github.com/wikendiiv/cf-local/internal/api"
+	"github.com/wikendiiv/cf-local/internal/api/cachepolicy"
+	"github.com/wikendiiv/cf-local/internal/api/distribution"
+	apiedgefunc "github.com/wikendiiv/cf-local/internal/api/edgefunc"
+	apiinv "github.com/wikendiiv/cf-local/internal/api/invalidation"
+	"github.com/wikendiiv/cf-local/internal/api/originrequestpolicy"
+	"github.com/wikendiiv/cf-local/internal/api/responseheaderspolicy"
+	"github.com/wikendiiv/cf-local/internal/config"
+	"github.com/wikendiiv/cf-local/internal/invalidation"
+	cfnginx "github.com/wikendiiv/cf-local/internal/nginx"
 )
 
 const (

@@ -8,8 +8,8 @@ body:
       value: |
         提案ありがとうございます。cf-local は **キャッシュ挙動の検証に特化** した最小ツールです。スコープ判断のため以下を確認してください。
 
-        - **DESIGN.md の「やらない」リスト** に該当しないか — [`DESIGN.md`](https://github.com/DKen-DevCat/cf-local/blob/develop/DESIGN.md) §2
-        - **既知の積みタスク (BL-*) と重複しないか** — [`docs/limitations.md`](https://github.com/DKen-DevCat/cf-local/blob/develop/docs/limitations.md)
+        - **DESIGN.md の「やらない」リスト** に該当しないか — [`DESIGN.md`](https://github.com/wikendiiv/cf-local/blob/develop/DESIGN.md) §2
+        - **既知の積みタスク (BL-*) と重複しないか** — [`docs/limitations.md`](https://github.com/wikendiiv/cf-local/blob/develop/docs/limitations.md)
         - **AWS CloudFront 公式機能** との対応関係を明記してください
 
   - type: textarea

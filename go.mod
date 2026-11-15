@@ -1,4 +1,4 @@
-module github.com/DKen-DevCat/cf-local
+module github.com/wikendiiv/cf-local
 
 go 1.26.1
 

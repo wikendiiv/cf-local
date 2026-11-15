@@ -3,10 +3,10 @@
 > CloudFront cache behavior emulator for local development.
 > Bring your production Terraform — change just the endpoint.
 
-[![License: MIT](https://img.shields.io/github/license/DKen-DevCat/cf-local)](LICENSE)
-[![CI](https://github.com/DKen-DevCat/cf-local/actions/workflows/ci.yml/badge.svg)](https://github.com/DKen-DevCat/cf-local/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/github/license/wikendiiv/cf-local)](LICENSE)
+[![CI](https://github.com/wikendiiv/cf-local/actions/workflows/ci.yml/badge.svg)](https://github.com/wikendiiv/cf-local/actions/workflows/ci.yml)
 <!-- GHCR badge: v0.1.0 タグ push までは静的バッジ。実 push 後に shields.io の動的 GHCR バッジへ差し替え予定。 -->
-[![GHCR](https://img.shields.io/badge/ghcr-cf--local-blue?logo=docker)](https://github.com/DKen-DevCat/cf-local/pkgs/container/cf-local)
+[![GHCR](https://img.shields.io/badge/ghcr-cf--local-blue?logo=docker)](https://github.com/wikendiiv/cf-local/pkgs/container/cf-local)
 
 `cf-local` はAmazon CloudFrontのキャッシュ挙動をローカルで再現するエミュレータ。本番のTerraformコードを `endpoints` 指定だけ変えて向けると、ローカルにCloudFrontディストリビューションが立ち上がる。Lambda@EdgeはAWS公式のLambda Runtime Interface Emulator (RIE)と組み合わせて実行できる。
 
@@ -65,7 +65,7 @@ cf-localはローカルのDockerだけでこれらを解決する。完全なClo
 ### ソースから起動
 
 ```bash
-git clone https://github.com/DKen-DevCat/cf-local.git
+git clone https://github.com/wikendiiv/cf-local.git
 cd cf-local
 docker compose up -d
 # nginx :8080  (キャッシュ経路)
@@ -80,21 +80,21 @@ cf-local は 3 つのイメージで構成される (リリース時に GHCR へ
 
 | イメージ | 役割 |
 |---|---|
-| `ghcr.io/dken-devcat/cf-local` | Control Plane (Go, `:4566`) |
-| `ghcr.io/dken-devcat/cf-local-nginx` | Data Plane (nginx + njs + ngx_cache_purge, `:8080`) |
-| `ghcr.io/dken-devcat/cf-local-edge-proxy` | Edge Proxy sidecar (Lambda@Edge 連携、`:4569`) |
+| `ghcr.io/wikendiiv/cf-local` | Control Plane (Go, `:4566`) |
+| `ghcr.io/wikendiiv/cf-local-nginx` | Data Plane (nginx + njs + ngx_cache_purge, `:8080`) |
+| `ghcr.io/wikendiiv/cf-local-edge-proxy` | Edge Proxy sidecar (Lambda@Edge 連携、`:4569`) |
 
 ```bash
-docker pull ghcr.io/dken-devcat/cf-local:latest
-docker pull ghcr.io/dken-devcat/cf-local-nginx:latest
+docker pull ghcr.io/wikendiiv/cf-local:latest
+docker pull ghcr.io/wikendiiv/cf-local-nginx:latest
 # Lambda@Edge を使う場合
-docker pull ghcr.io/dken-devcat/cf-local-edge-proxy:latest
+docker pull ghcr.io/wikendiiv/cf-local-edge-proxy:latest
 ```
 
 または特定バージョン (`v0.1.0` / `0.1` / `0` / `latest` のタグが利用可能):
 
 ```bash
-docker pull ghcr.io/dken-devcat/cf-local:v0.1.0
+docker pull ghcr.io/wikendiiv/cf-local:v0.1.0
 ```
 
 `docker compose up` でソースから起動する場合は GHCR からの pull は不要 (ローカルで build される)。

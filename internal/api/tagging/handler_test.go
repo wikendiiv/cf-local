@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	awsxml "github.com/DKen-DevCat/cf-local/internal/api/xml"
+	awsxml "github.com/wikendiiv/cf-local/internal/api/xml"
 )
 
 func newTestServer(t *testing.T) *httptest.Server {
