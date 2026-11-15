@@ -35,8 +35,8 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
 
-	"github.com/DKen-DevCat/cf-local/internal/api/distribution"
-	"github.com/DKen-DevCat/cf-local/internal/edgefunc"
+	"github.com/wikendiiv/cf-local/internal/api/distribution"
+	"github.com/wikendiiv/cf-local/internal/edgefunc"
 )
 
 // Handler serves the cf-local internal lookup endpoint that edge-proxy

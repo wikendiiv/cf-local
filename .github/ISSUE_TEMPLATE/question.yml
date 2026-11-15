@@ -8,10 +8,10 @@ body:
       value: |
         質問ありがとうございます。回答前に以下を確認していただくと早く解決できます。
 
-        - 使い方: [`docs/getting-started.md`](https://github.com/DKen-DevCat/cf-local/blob/develop/docs/getting-started.md) と [`examples/`](https://github.com/DKen-DevCat/cf-local/tree/develop/examples)
-        - 設計判断: [`DESIGN.md`](https://github.com/DKen-DevCat/cf-local/blob/develop/DESIGN.md)
-        - 既知の制約: [`docs/limitations.md`](https://github.com/DKen-DevCat/cf-local/blob/develop/docs/limitations.md)
-        - 既存の質問 issue: [search](https://github.com/DKen-DevCat/cf-local/issues?q=is%3Aissue+label%3Aquestion)
+        - 使い方: [`docs/getting-started.md`](https://github.com/wikendiiv/cf-local/blob/develop/docs/getting-started.md) と [`examples/`](https://github.com/wikendiiv/cf-local/tree/develop/examples)
+        - 設計判断: [`DESIGN.md`](https://github.com/wikendiiv/cf-local/blob/develop/DESIGN.md)
+        - 既知の制約: [`docs/limitations.md`](https://github.com/wikendiiv/cf-local/blob/develop/docs/limitations.md)
+        - 既存の質問 issue: [search](https://github.com/wikendiiv/cf-local/issues?q=is%3Aissue+label%3Aquestion)
 
   - type: textarea
     id: question

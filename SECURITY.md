@@ -33,7 +33,7 @@ cf-local 自体の脆弱性 (たとえば設定ファイル parser の path trav
    - 想定される影響 (情報漏洩 / 任意コード実行 / DoS 等)
    - (任意) 修正案
 
-URL: <https://github.com/DKen-DevCat/cf-local/security/advisories/new>
+URL: <https://github.com/wikendiiv/cf-local/security/advisories/new>
 
 ## 対応方針
 

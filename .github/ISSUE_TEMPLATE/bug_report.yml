@@ -8,9 +8,9 @@ body:
       value: |
         報告ありがとうございます。再現に必要な情報を可能な範囲で記入してください。
 
-        - **既知の制約か?** → [`docs/limitations.md`](https://github.com/DKen-DevCat/cf-local/blob/develop/docs/limitations.md) を確認
-        - **設計判断によるものか?** → [`DESIGN.md`](https://github.com/DKen-DevCat/cf-local/blob/develop/DESIGN.md) の「やらない」リストを確認
-        - **脆弱性の場合** → public な issue ではなく [Security Advisories](https://github.com/DKen-DevCat/cf-local/security/advisories/new) で報告
+        - **既知の制約か?** → [`docs/limitations.md`](https://github.com/wikendiiv/cf-local/blob/develop/docs/limitations.md) を確認
+        - **設計判断によるものか?** → [`DESIGN.md`](https://github.com/wikendiiv/cf-local/blob/develop/DESIGN.md) の「やらない」リストを確認
+        - **脆弱性の場合** → public な issue ではなく [Security Advisories](https://github.com/wikendiiv/cf-local/security/advisories/new) で報告
 
   - type: textarea
     id: summary

@@ -38,9 +38,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
 
-	"github.com/DKen-DevCat/cf-local/internal/api/distribution"
-	apiedgefunc "github.com/DKen-DevCat/cf-local/internal/api/edgefunc"
-	"github.com/DKen-DevCat/cf-local/internal/edgefunc"
+	"github.com/wikendiiv/cf-local/internal/api/distribution"
+	apiedgefunc "github.com/wikendiiv/cf-local/internal/api/edgefunc"
+	"github.com/wikendiiv/cf-local/internal/edgefunc"
 )
 
 // stage builds the 3 httptest servers + a registered Distribution and

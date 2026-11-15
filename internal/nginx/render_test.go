@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
 
-	"github.com/DKen-DevCat/cf-local/internal/config"
+	"github.com/wikendiiv/cf-local/internal/config"
 )
 
 // TestRender_Golden は testdata/<case>/{cache-policies,distributions} を

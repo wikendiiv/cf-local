@@ -59,7 +59,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ghcr.io/dken-devcat/${{ matrix.image.name }}
+          images: ghcr.io/wikendiiv/${{ matrix.image.name }}
           tags: |
             # tag push (v1.2.3) → "v1.2.3" + "1.2.3" + "1.2" + "1" + "latest"
             type=ref,event=tag

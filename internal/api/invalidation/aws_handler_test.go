@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	awsxml "github.com/DKen-DevCat/cf-local/internal/api/xml"
+	awsxml "github.com/wikendiiv/cf-local/internal/api/xml"
 )
 
 // sampleCreateXML is the canonical CreateInvalidation request body shape from

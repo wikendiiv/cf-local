@@ -8,7 +8,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/cloudfront/types"
 
-	"github.com/DKen-DevCat/cf-local/internal/config"
+	"github.com/wikendiiv/cf-local/internal/config"
 )
 
 // Output は Render() の生成物。Conf は cf-local.conf 相当のバイト列、

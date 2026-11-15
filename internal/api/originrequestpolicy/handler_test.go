@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	awsxml "github.com/DKen-DevCat/cf-local/internal/api/xml"
+	awsxml "github.com/wikendiiv/cf-local/internal/api/xml"
 )
 
 const sampleCreateXML = `<?xml version="1.0" encoding="UTF-8"?>

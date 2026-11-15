@@ -93,5 +93,5 @@ v0.1.0 では以下の機能/挙動は未対応または制約があります。
 - HTTPS / TLS 非対応 (ローカル開発用途のため意図的)
 - WAF / Shield / Field-level Encryption / 地理ブロック / 署名付き URL / リアルタイムログ は意図的にスコープ外 ([`DESIGN.md`](DESIGN.md) §2 参照)
 
-[Unreleased]: https://github.com/DKen-DevCat/cf-local/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/DKen-DevCat/cf-local/releases/tag/v0.1.0
+[Unreleased]: https://github.com/wikendiiv/cf-local/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/wikendiiv/cf-local/releases/tag/v0.1.0
